@@ -1,0 +1,49 @@
+{
+  "name": "blok/laravel-mock",
+  "description": "An easy mock api helper that simulate GET, PUT, DELETE, POST requests in a json folder",
+  "license": "MIT",
+  "keywords": [
+    "mock"
+  ],
+  "type": "library",
+  "authors": [
+    {
+      "name": "Daniel Sum",
+      "email": "daniel@cherrypulp.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Blok\\Mock\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Blok\\Mock\\Tests\\": "tests"
+    },
+    "files": [
+
+    ]
+  },
+  "scripts": {
+    "phpunit": "phpunit"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Blok\\Mock\\MockServiceProvider"
+      ]
+    }
+  },
+  "config": {
+    "preferred-install": "dist",
+    "sort-packages": true,
+    "optimize-autoloader": true
+  }
+}
