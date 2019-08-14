@@ -2,7 +2,9 @@
 
 namespace Blok\Mock;
 
-class ServiceProvider extends \Illuminate\Support\ServiceProvider
+use Illuminate\Support\ServiceProvider;
+
+class MockServiceProvider extends ServiceProvider
 {
     const CONFIG_PATH = __DIR__ . '/../config/mock.php';
 

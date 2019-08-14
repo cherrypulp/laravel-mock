@@ -1,10 +1,10 @@
 <?php
 
-namespace blok\mock\Facades;
+namespace Blok\Mock\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
-class mock extends Facade
+class Mock extends Facade
 {
     protected static function getFacadeAccessor()
     {
