@@ -1,11 +1,6 @@
 # Mock
 
-[![Build Status](https://travis-ci.org/cherrypulp/laravel-mock.svg?branch=master)](https://travis-ci.org/cherrypulp/laravel-mock)
-[![styleci](https://styleci.io/repos/CHANGEME/shield)](https://styleci.io/repos/CHANGEME)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/cherrypulp/laravel-mock/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/cherrypulp/laravel-mock/?branch=master)
-[![SensioLabsInsight](https://insight.sensiolabs.com/projects/CHANGEME/mini.png)](https://insight.sensiolabs.com/projects/CHANGEME)
-[![Coverage Status](https://coveralls.io/repos/github/cherrypulp/laravel-mock/badge.svg?branch=master)](https://coveralls.io/github/cherrypulp/laravel-mock?branch=master)
-
 [![Packagist](https://img.shields.io/packagist/v/cherrypulp/laravel-mock.svg)](https://packagist.org/packages/cherrypulp/laravel-mock)
 [![Packagist](https://poser.pugx.org/cherrypulp/laravel-mock/d/total.svg)](https://packagist.org/packages/cherrypulp/laravel-mock)
 [![Packagist](https://img.shields.io/packagist/l/cherrypulp/laravel-mock.svg)](https://packagist.org/packages/cherrypulp/laravel-mock)
