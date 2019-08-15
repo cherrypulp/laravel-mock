@@ -98,8 +98,7 @@ You can easily test your FormRequest or Validation by adding in the entrypoint "
 
 ### Force to json
 
-By default, the config will only accept json request, but if 
-
+By default, the config will only accept json request, but if you want for some reason disable or test a redirection instead. You can do it in your config file (at a global or in the method level of the controller).
 
 ## Security
 

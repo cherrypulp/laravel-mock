@@ -6,7 +6,7 @@ return [
     "paginate" => true, // Define if we must paginate the results or not
     "per_page" => 10, // Define the number of items per page (if paginate = true)
     "condition" => function(){ // The condition to define if the mock routing is enabled or not
-        return app()->isLocal();
+        return env("APP_ENV") === "local" && env("APP_DEBUG");
     },
     "force_json" => true, // Force the whole mock controller to render application/json
     "entrypoints" => [ // instead of looking into a folder you can also run a factory($class$, $number$)->states($state$)->make($override$) or add validation on controller method
