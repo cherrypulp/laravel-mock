@@ -2,7 +2,6 @@
 
 namespace Blok\Mock\Http\Controllers;
 
-use App\Http\Requests\UserPostRequest;
 use Blok\Mock\Mock;
 use Illuminate\Foundation\Bus\DispatchesJobs;
 use Illuminate\Pagination\LengthAwarePaginator;
@@ -11,7 +10,6 @@ use Illuminate\Foundation\Validation\ValidatesRequests;
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Http\Request;
 use Illuminate\Support\Collection;
-use phpDocumentor\Reflection\File;
 use Symfony\Component\HttpFoundation\HeaderBag;
 
 /**
@@ -40,9 +38,7 @@ class MockController extends BaseController
             if (is_array($validation)) {
                 $this->validate($request, $validation);
             } else {
-                /**
-                 * @var $formRequest UserPostRequest
-                 */
+
                 $formRequest = new $validation($request->query->all(), $request->request->all(), $request->attributes->all(), $request->cookies->all(), $request->files->all(), $request->server->all(), $request->getContent());
 
                 $this->validate($formRequest, $formRequest->rules());

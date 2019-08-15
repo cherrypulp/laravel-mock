@@ -39,10 +39,12 @@ php artisan vendor:publish --provider="Blok\Mock\ServiceProvider" --tag="config"
 
 ## Usage
 
+### Folder mode
+
 Let's say that you have this in your mock folder
 
 ```
-mock
+storage/mock
 |- users
 |-- 1.json
 |-- 2.json
@@ -50,7 +52,7 @@ mock
 
 If you make that requests : 
 
-GET /mock/users will return : 
+GET /mock/users it will return : 
 
 ````json
 [
@@ -82,7 +84,22 @@ PUT /mock/users/1 will save your request into /mock/users/1.json
 
 DELETE /mock/users/1 will delete your request in /mock/users/1.json
 
-That's it!
+### Factory mode
+
+If you see the config/mock.php you will see a commented array in entrypoints.
+
+If you uncommented that you will be able to call your factory for the model you want.
+
+=> if enabled it will return mock data from your factories instead from json.
+
+### Test a FormRequest or mock a validation
+
+You can easily test your FormRequest or Validation by adding in the entrypoint "$action$_validation" in your config file => it could receive an array or a FormRequest.
+
+### Force to json
+
+By default, the config will only accept json request, but if 
+
 
 ## Security
 
