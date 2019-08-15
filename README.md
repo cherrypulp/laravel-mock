@@ -107,7 +107,7 @@ instead of using the issue tracker.
 
 ## Credits
 
-- [](https://github.com/cherrypulp/laravel-mock)
+- [Daniel Sum](https://github.com/cherrypulp/laravel-mock)
 - [All contributors](https://github.com/cherrypulp/laravel-mock/graphs/contributors)
 
 This package is bootstrapped with the help of
