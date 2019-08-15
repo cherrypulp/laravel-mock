@@ -2,9 +2,11 @@
 
 namespace Blok\Mock;
 
-class Mock{
+class Mock
+{
 
-    public static function getPath(){
+    public static function getPath()
+    {
         return config("mock.path");
     }
 

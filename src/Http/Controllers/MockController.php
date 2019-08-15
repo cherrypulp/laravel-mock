@@ -146,7 +146,7 @@ class MockController extends BaseController
         $data = $request->all();
         $data['id'] = uniqid();
 
-       \File::put($folder . '/' . $data['id'] . '.json', json_encode($data));
+        \File::put($folder . '/' . $data['id'] . '.json', json_encode($data));
 
         return $data;
     }

@@ -22,7 +22,7 @@ class MockServiceProvider extends ServiceProvider
             'mock'
         );
 
-        $this->app->bind('mock', function () {
+        $this->app->bind('mock', function() {
             return new Mock();
         });
 
