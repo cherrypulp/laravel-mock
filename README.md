@@ -5,7 +5,7 @@
 [![Packagist](https://poser.pugx.org/cherrypulp/laravel-mock/d/total.svg)](https://packagist.org/packages/cherrypulp/laravel-mock)
 [![Packagist](https://img.shields.io/packagist/l/cherrypulp/laravel-mock.svg)](https://packagist.org/packages/cherrypulp/laravel-mock)
 
-An simple mock api helper that simulate GET, PUT, DELETE, POST requests and store it to a json folder.
+A simple mock api helper that simulate GET, PUT, DELETE, POST requests and store it to a json folder.
 
 ## Installation
 
